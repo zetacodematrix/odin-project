@@ -1,6 +1,6 @@
 # The Odin Project — Curriculum Progress
 
-This repository contains completed and in-progress work for **The Odin Project (TOP)**.  
+This repository contains completed and in-progress work for **The Odin Project**.  
 It functions as a structured record of projects, exercises, and milestones completed throughout the curriculum.
 
 ---
