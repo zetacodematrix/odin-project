@@ -123,6 +123,60 @@ nav ul li a:hover {
 
 .quote {
     background-color: var(--text-muted);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;       /* center the blue box horizontally */
+    padding: 3rem 1rem;            /* space above/below the CTA section */
+}
+
+.cta {
+    background-color: var(--accent-blue);
+    color: var(--text-light);
+    padding: 1.5rem 2.5rem;        /* inner spacing inside blue box */
+    border-radius: 10px;
+    width: 100%;                   /* let it grow */
+    max-width: 900px;              /* but not wider than this */
+    display: flex;
+    align-items: center;
+}
+
+/* use the inner div as a flex container for text + button */
+.cta > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* text block (h3 + p) */
+.cta h3 {
+    margin-bottom: 0.25rem;
+}
+
+.cta p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* button styling – note the dot .cta-button, not #cta-button */
+.cta-button {
+    padding: 0.4rem 1.5rem;
+    border-radius: 10px;
+    border: 2px solid var(--text-light);
+    background: transparent;
+    color: var(--text-light);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: var(--text-light);
+    color: var(--accent-blue);
 }
 
 footer {
