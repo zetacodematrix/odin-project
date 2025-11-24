@@ -1,9 +1,106 @@
 # Devlog – Asimov-Themed Landing Page  
-**Date:** 23 Nov 2025  
 **Project:** The Odin Project – Landing Page  
 **Author:** zetacodematrix  
 
 ---
+
+# 📅 24 Nov 2025 – Styling Pass & Visual Refinements
+
+## Overview
+
+Today’s work focused heavily on CSS styling and visual refinement of the Asimov-themed landing page. With the semantic structure completed earlier, the goal for 24 Nov was to improve layout consistency, typography, and sectional styling while introducing colour variables and a more cohesive design system.
+
+The commits represent steady, iterative progress across every section of the page.
+
+---
+
+## Commits & Progress
+
+### Import Google font-family  
+**Commit:** `Import Google font-family`  
+- Added a Google Font to enhance typography and match the Asimov aesthetic.  
+- Updated base font rules to apply site-wide.
+
+---
+
+### Style touches on quote section  
+**Commit:** `Style touches on quote section`  
+- Added small visual refinements to spacing and alignment.  
+- Improved balance between quote text and author attribution.
+
+---
+
+### Restyle the quote section  
+**Commit:** `Restyle the quote section`  
+- Applied a more structured, thematic layout.  
+- Adjusted font weights and margins.  
+- Introduced a design more consistent with the sci-fi theme.
+
+---
+
+### Add style to call-to-action section  
+**Commit:** `Add style to call-to-action section`  
+- Styled the CTA block with improved hierarchy and spacing.  
+- Ensured the CTA stands out visually as a key user-engagement point.
+
+---
+
+### Style info cards section  
+**Commit:** `Style info cards section`  
+- Styled all info cards for consistent layout.  
+- Added spacing, borders, and improved text readability.  
+- Strengthened visual separation between cards.
+
+---
+
+### Refactor container and add var for colors  
+**Commit:** `Refactor container and add var for colors`  
+- Introduced CSS variables (custom properties) for primary colours.  
+- Improved maintainability and theming potential.  
+- Standardised container layout spacing.
+
+---
+
+### Add style to header and hero text  
+**Commit:** `Add style to header and hero text`  
+- Refined header typography and alignment.  
+- Styled hero section headings and descriptive text to match the Asimov theme.
+
+---
+
+### Add background color to header, hero, footer  
+**Commit:** `Add background color to header, hero, footer`  
+- Applied cohesive background colours to unify the top and bottom sections.  
+- Ensured strong contrast for accessibility.
+
+---
+
+### Add style to header  
+**Commit:** `Add style to header`  
+- Further refinement of header spacing, layout, and link styling.  
+- Improved navigation clarity and readability.
+
+---
+
+### Add call-to-action section and style.sheet  
+**Commit:** `Add call-to-action section and style.sheet`  
+- Initial creation of CTA section.  
+- Added main stylesheet and linked it to the HTML.
+
+---
+
+## Current Status (24 Nov)
+
+- The landing page now has a coherent visual identity.  
+- Major sections (header, hero, cards, quote, CTA, footer) have been stylistically unified.  
+- CSS organisation has improved thanks to refactoring and colour variables.  
+- Typography and layout flow are significantly more polished.
+
+---
+
+# 📅 23 Nov 2025 – Semantic Structure Complete
+
+*(Previous entry preserved exactly as written)
 
 ## Overview
 
@@ -14,68 +111,49 @@ Today’s work focused on building out the full semantic HTML structure for the 
 ## Commits & Progress
 
 ### 1. Initial scaffold  
-**Commit:** `Add initial semantic structure for langing page`  
-- Set up the base HTML document and added initial semantic regions (`header`, `main`, `footer`).  
-- Added placeholder text and proper document structure for later expansion.
-
----
+**Commit:** `Add initial semantic structure for landing page`  
+- Set up the base HTML document and semantic regions (`header`, `main`, `footer`).  
+- Added placeholder text and structural foundations.
 
 ### 2. Header, nav, and hero section  
 **Commit:** `Add header structure with logo, navigation, and hero section skeleton`  
-- Added a top-level header containing:  
-  - Logo placeholder  
-  - Navigation menu using proper list-based HTML  
-- Created the hero section with main heading + descriptive text placeholders.  
-- This sets the stage for the visual identity of the landing page.
-
----
+- Added header with logo + navigation list.  
+- Created hero section with heading and descriptive text.
 
 ### 3. Info-card scaffolding  
 **Commit:** `Add info cards, scaffold with card-container`  
-- Added a new section in `<main>` dedicated to “info cards.”  
-- Introduced a parent container to hold multiple cards.  
-- Each card includes a heading and paragraph placeholder.
-
----
+- Built a section to hold information cards.  
+- Added headings and placeholders.
 
 ### 4. Image placeholders & captions  
 **Commit:** `Add image placeholders and captions to info-cards`  
-- Each info card now includes a `<figure>` block with:  
-  - Image placeholder  
-  - `<figcaption>` describing the image  
-- Improved accessibility with alt attributes ready for future refinement.
-
----
+- Added `<figure>` and `<figcaption>` for each card.  
+- Improved accessibility with alt text.
 
 ### 5. Full semantic pass  
 **Commit:** `Finish semantic structure for landing page`  
-- Cleaned up section hierarchy and ensured proper heading order.  
-- Removed redundant wrappers and improved readability.  
-- Ensured each part of the page has a clear semantic purpose.
-
----
+- Cleaned section hierarchy and heading order.  
+- Removed unnecessary wrappers.
 
 ### 6. Final semantic polish  
 **Commit:** `Finalize semantic HTML structure for Asimov-themed landing page`  
-- Final re-organization of IDs, section labels, and descriptive text to align with Asimov styling/lore.  
-- Confirmed the HTML is ready for styling and responsive design implementation.  
+- Reorganised IDs, labels, and descriptive text.  
+- Confirmed structure is ready for CSS development.
 
 ---
 
 ## Current Status
 
-- All semantic HTML for the Asimov landing page is complete.  
-- Structure is clean, accessible, and easy to style.  
-- No CSS yet — HTML is now locked in and ready for the next Odin Project milestone.
+- Semantic structure complete.  
+- Ready for styling phase.
 
 ---
 
-## Next Steps
+## Next Steps (as of 23 Nov)
 
-- Begin CSS layout (flexbox/grid for cards and hero section).  
-- Develop an Asimov-inspired sci-fi visual theme (colors, borders, typography).  
-- Add responsive breakpoints for mobile → tablet → desktop.  
-- Replace placeholder images with final assets.
+- Begin CSS layout (flexbox/grid).  
+- Develop sci-fi visual theme.  
+- Add responsive breakpoints.  
+- Replace placeholder images.
 
 ---
-
