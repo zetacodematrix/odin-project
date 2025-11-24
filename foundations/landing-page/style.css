@@ -11,9 +11,15 @@
     --accent-blue: #3882f6;
 }
 
-
 html, body {
     height: 100%;
+}
+
+/* Global body text setup */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--bg-dark);
+    background-color: #ffffff;
 }
 
 .container {
@@ -23,7 +29,6 @@ html, body {
     max-width: 1100px;
     margin: 0 auto;
 }
-
 
 header, #hero, footer {
     background-color: var(--bg-dark);
@@ -55,10 +60,16 @@ nav ul li a {
     color: var(--text-muted);
 }
 
+/* Optional tiny polish */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 #hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 1rem;
 }
 
 #hero-text {
@@ -71,11 +82,13 @@ nav ul li a {
     font-size: 48px;
     font-weight: 900;
     color: var(--text-light);
+    line-height: 1.1;
 }
 
 #hero-text p {
     color: var(--text-muted);
     font-size: 18px;
+    line-height: 1.4;
 }
 
 #hero-image {
@@ -83,6 +96,38 @@ nav ul li a {
     padding: 1rem;
 }
 
+.info-cards > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--bg-dark);
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--accent-blue);
+    border-radius: 18px;
+}
+
+.quote {
+    background-color: var(--text-muted);
+}
+
 footer {
     margin-top: auto;
+    padding: 1rem;
+    color: var(--text-light);
+    text-align: center;
 }
