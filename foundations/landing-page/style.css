@@ -123,24 +123,38 @@ nav ul li a:hover {
 
 .quote {
     background-color: var(--text-muted);
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
 }
+
+blockquote {
+    margin: 0;
+    font-style: italic;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
 
 .call-to-action {
     display: flex;
-    justify-content: center;       /* center the blue box horizontally */
-    padding: 3rem 1rem;            /* space above/below the CTA section */
+    justify-content: center;       
+    padding: 3rem 1rem;            
 }
 
 .cta {
     background-color: var(--accent-blue);
     color: var(--text-light);
-    padding: 1.5rem 2.5rem;        /* inner spacing inside blue box */
+    padding: 1.5rem 2.5rem;        
     border-radius: 10px;
-    width: 100%;                   /* let it grow */
-    max-width: 900px;              /* but not wider than this */
+    width: 100%;                   
+    max-width: 600px;
     display: flex;
     align-items: center;
 }
