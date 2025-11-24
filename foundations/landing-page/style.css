@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, #hero, footer {
+    background-color: #1f2937;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,4 +36,25 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-text {
+    text-align: center;
+    max-width: 50%;
+    padding: 1rem;
+}
+
+#hero-image {
+    max-width: 50%;
+    padding: 1rem;
+}
+
+footer {
+    margin-top: auto;
 }
