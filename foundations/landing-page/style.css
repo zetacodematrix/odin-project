@@ -140,8 +140,6 @@ blockquote {
     padding-bottom: 2rem;
 }
 
-
-
 .call-to-action {
     display: flex;
     justify-content: center;       
@@ -159,7 +157,6 @@ blockquote {
     align-items: center;
 }
 
-/* use the inner div as a flex container for text + button */
 .cta > div {
     display: flex;
     justify-content: space-between;
