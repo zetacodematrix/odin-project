@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+}
+
+.card-container {
+    list-style: none;
+    padding: 0;
+    margin-left: 1rem;
+
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
